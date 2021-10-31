@@ -1,0 +1,32 @@
+.explore-middle-container {
+  flex: 0.5;
+  border-right: 1px solid var(--twitter-background);
+  overflow-y: scroll;
+}
+/*Hide scrollbar for Chrome, Safari and Opera */
+.explore-middle-container::-webkit-scrollbar {
+  display: none;
+}
+/*Hide scrollbar for IE, Edge and Firefox */
+.explore-middle-container {
+  -ms-overflow-style: none; /*IE and Edge */
+  scrollbar-width: none; /*Firefox*/
+}
+.search-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.latest {
+  background-color: #eff3f4;
+  /* border-top-left-radius: 20px;
+  border-top-right-radius: 20px; */
+  border-radius: 20px;
+}
+.latest-dark {
+  background-color: black;
+  color: white;
+  /* border-top-left-radius: 20px;
+  border-top-right-radius: 20px; */
+  border-radius: 20px;
+}

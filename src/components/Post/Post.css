@@ -1,0 +1,120 @@
+.post {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--twitter-background);
+  padding-bottom: 10px;
+}
+.post-dark {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid grey;
+  padding-bottom: 10px;
+}
+
+.verified-icon {
+  font-size: 14px !important;
+  color: var(--twitter-color) !important;
+}
+.threedot {
+  background-color: white;
+}
+.threedot-dark {
+  background-color: black;
+  color: white;
+}
+
+.post-footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.post-body {
+  flex: 1;
+  padding: 10px;
+}
+.post-body > img {
+  border-radius: 20px;
+  width: 100%;
+}
+.post-headerspecial {
+  font-weight: 600;
+  font-size: 14px;
+  color: gray;
+}
+.post-headerspecial-dark {
+  font-weight: 600;
+  font-size: 14px;
+  color: gray;
+}
+.post-headertext {
+  display: flex;
+}
+.post-headertext-dark {
+  display: flex;
+}
+
+.post-headertext > h3 {
+  flex: 1;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.post-headertext-dark > h3 {
+  flex: 1;
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: white;
+}
+.postheader-description {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.postheader-description-dark {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: white;
+}
+.post-avatar {
+  padding: 20px;
+}
+.morehorizicon-btn {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.morehorizicon-btn-dark {
+  border: none;
+  background-color: black;
+  cursor: pointer;
+}
+.comment-icon-dark {
+  background-color: black !important;
+  color: grey !important;
+  cursor: pointer;
+}
+.comment-icon {
+  cursor: pointer;
+}
+.retweet-icon-dark {
+  background-color: black !important;
+  color: grey !important;
+  cursor: pointer;
+}
+.retweet-icon {
+  cursor: pointer;
+}
+.like-icon-dark {
+  background-color: black !important;
+  color: grey !important;
+  cursor: pointer;
+}
+.like-icon {
+  cursor: pointer;
+}
+.publish-icon-dark {
+  background-color: black !important;
+  color: grey !important;
+  cursor: pointer;
+}
+.publish-icon {
+  cursor: pointer;
+}

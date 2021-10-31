@@ -1,0 +1,47 @@
+.person-advice {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eff3f4;
+  padding: 10px;
+}
+.person-advice-dark {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  padding: 10px;
+}
+.person-info h3 {
+  font-size: 15px;
+}
+.person-info-dark > h3 {
+  font-size: 15px;
+  color: white;
+}
+.person-info h4 {
+  font-size: 12px;
+  color: grey;
+}
+.person-info-dark > h4 {
+  font-size: 12px;
+  color: grey;
+}
+.follow-btn {
+  border-radius: 20px !important;
+  background-color: black !important;
+  text-transform: none !important;
+  color: white !important;
+  padding: 7px !important;
+  font-size: 15px !important;
+  width: fit-content !important;
+}
+.follow-btn-dark {
+  border-radius: 20px !important;
+  background-color: white !important;
+  text-transform: none !important;
+  color: black !important;
+  padding: 7px !important;
+  font-size: 15px !important;
+  width: fit-content !important;
+}

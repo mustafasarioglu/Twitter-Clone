@@ -1,0 +1,24 @@
+.follow-part {
+  flex: 0.3;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.follow-header {
+  background-color: #eff3f4;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.follow-header-dark {
+  background-color: black;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.follow-header-info {
+  padding: 15px;
+  font-size: 20px;
+}
+.follow-header-info-dark {
+  padding: 15px;
+  font-size: 20px;
+  color: var(--twitter-background);
+}
